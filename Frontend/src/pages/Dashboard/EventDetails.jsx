@@ -629,7 +629,7 @@ const EventDetails = () => {
               </div>
 
               {/* Certificate status */}
-              <span
+              {/* <span
                 className={
                   student.certificateStatus === "Generated"
                     ? "text-green-600"
@@ -637,7 +637,7 @@ const EventDetails = () => {
                 }
               >
                 {student.certificateStatus}
-              </span>
+              </span> */}
 
             </div>
           ))}

@@ -47,11 +47,11 @@ export const registerAdmin = async (req, res) => {
 
     res.status(201).json({
       message: "Admin registered successfully",
-      // admin: {
-      //   id: admin._id,
-      //   name: admin.name,
-      //   email: admin.email,
-      // },
+      admin: {
+        id: admin._id,
+        name: admin.name,
+        email: admin.email,
+      },
     });
   } catch (error) {
     console.error("Register error:", error);
@@ -120,12 +120,12 @@ export const loginAdmin = async (req, res) => {
 
     res.status(200).json({
       message: "Login successful",
-      // token,
-      // admin: {
-      //   id: admin._id,
-      //   name: admin.name,
-      //   email: admin.email,
-      // },
+      token,
+      admin: {
+        id: admin._id,
+        name: admin.name,
+        email: admin.email,
+      },
     });
   } catch (error) {
     console.error("Login error:", error);

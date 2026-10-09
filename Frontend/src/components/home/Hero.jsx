@@ -20,14 +20,14 @@ function Hero() {
           <div className="flex gap-4 mt-8">
             <Link
               to="/verify"
-              className="bg-[#FBBF24] text-white px-6 py-3 rounded-lg hover:text-[17px] transition-all duration-300"
+              className="bg-[#FBBF24] text-white px-6 py-3 rounded-lg hover:shadow-md hover:shadow-gray-400 transition-all duration-300"
             >
               Verify Certificate
             </Link>
 
             <Link
               to="/login"
-              className="border border-[#FBBF24] text-[#d49801] px-6 py-3 rounded-lg hover:text-[17px]  transition-all duration-300"
+              className="border border-[#FBBF24] text-[#d49801] px-6 py-3 rounded-lg hover:shadow-md hover:shadow-amber-200 transition-all duration-300"
             >
               Certificate Manager login
             </Link>
@@ -38,7 +38,7 @@ function Hero() {
           <img
             src={certificate}
             alt="Certificate"
-            className="w-full max-w-md border-5 border-amber-500"
+            className="w-full max-w-md border-5 hover:shadow-xl hover:shadow-gray-400 transition-all duration-300 border-amber-500"
           />
         </div>
 
